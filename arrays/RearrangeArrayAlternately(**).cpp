@@ -7,6 +7,7 @@ class Solution{
     // arr: input array
     // n: size of array
     //Function to rearrange  the array elements alternately.
+    // 1 2 3 4 5    ->  5 1 4 2 3
     void rearrange(long long *a, int n) 
     { 
     	long long mx = a[n-1] + 1;
