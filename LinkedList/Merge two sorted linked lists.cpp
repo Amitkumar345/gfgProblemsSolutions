@@ -6,6 +6,8 @@
 // valueM[] = {2,3,20}
 // Output: 2 3 5 10 15 20 40
 
+
+// ********EDITORIAL at gfg has MANY POINTER on POINTER approach
 struct Node* SortedMerge(struct Node* a, struct Node* b)
 {
     /*
